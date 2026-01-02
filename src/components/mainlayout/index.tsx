@@ -92,7 +92,7 @@ export default function MainLayout({
   }, []);
 
   return (
-    <div className="w-full max-w-[2000px] mx-auto min-h-screen flex flex-col">
+    <div className="w-full min-h-screen flex flex-col">
       <Nav />
       <MobileNav
         show={showMobileNav}

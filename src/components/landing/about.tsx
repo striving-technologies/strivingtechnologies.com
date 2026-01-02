@@ -8,7 +8,7 @@ export const AboutStats = () => {
     {
       count: "I.",
       title: "Years of Experience",
-      value: "4",
+      value: "5",
       className: "mt-20 sm-tab:mt-0",
       bgMedia: {
         url: "/images/about-experience.jpg",
@@ -19,7 +19,7 @@ export const AboutStats = () => {
     {
       count: "II.",
       title: "Completed Projects",
-      value: "10",
+      value: "4",
       bgMedia: {
         url: "/images/about-projects.jpg",
         width: 1728,
@@ -29,7 +29,7 @@ export const AboutStats = () => {
     {
       count: "III.",
       title: "Satisfied Clients",
-      value: "10",
+      value: "4",
       className: "mt-20 lg-tab:mt-0",
       bgMedia: {
         url: "/images/about-clients.jpg",
@@ -91,7 +91,7 @@ export const AboutStats = () => {
               <p className="flex justify-between items-center">
                 <span className="text-7xl">
                   {value}
-                  <span className="text-5xl">+</span>
+                  {count === "I." ? "+" : ""}
                 </span>
                 <ArrowIcon className="w-16 h-auto" />
               </p>

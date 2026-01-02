@@ -1,5 +1,58 @@
 [
   {
+    "id": "greyautomotive.ng",
+    "slug": "greyautomotive-ng",
+    "title": "Grey Automotive — Travel & Courier",
+    "clip": "A modern website for a new age automotive company in Nigeria, showcasing their services.",
+    "images": [
+      {
+        "url": "/images/work/greyautomotive.ng-mac.png",
+        "width": 6000,
+        "height": 4000,
+        "alt": "Grey Automotive landing page on a Macbook"
+      },
+      {
+        "url": "/images/work/greyautomotive.ng-services.png",
+        "width": 4000,
+        "height": 2405,
+        "alt": "Grey Automotive services section"
+      },
+      {
+        "url": "/images/work/greyautomotive.ng-about.png",
+        "width": 4000,
+        "height": 2405,
+        "alt": "Grey Automotive about us page"
+      },
+      {
+        "url": "/images/work/greyautomotive.ng-why-grey.png",
+        "width": 4000,
+        "height": 2405,
+        "alt": "Grey Automotive why choose us section"
+      },
+      {
+        "url": "/images/work/greyautomotive.ng-contact-us.png",
+        "width": 4000,
+        "height": 2405,
+        "alt": "Grey Automotive contact us section"
+      },
+      {
+        "url": "/images/work/greyautomotive.ng-booking.png",
+        "width": 4000,
+        "height": 2405,
+        "alt": "Grey Automotive Skulbus booking page"
+      }
+    ],
+    "tool": "Transit & Courier | Website",
+    "service": "UI/UX Design&nbsp;&nbsp;|&nbsp;&nbsp;Web Engineering",
+    "problem": "Grey Automotive, a new age automotive company on the Nigerian transit scene, faced the challenge of establishing a strong online presence to effectively showcase their services and reach a broader audience. Without a modern, user-friendly website, potential customers struggled to access information about their offerings, leading to missed opportunities for growth and customer engagement.",
+    "steps": {
+      "research": "Conducting comprehensive research was essential to create a website that reflects Grey Automotive's commitment to reliable, efficient transportation and appeals to their diverse customer base. We analysed the Nigerian transportation and logistics market, examining competitor websites to gain insights into industry standards and identify opportunities to differentiate Grey's online presence. By understanding what competitors do well—and where they fall short—we positioned the website to stand out as a leader in the transit and courier sector.\n\nWe conducted in-depth research into Grey's diverse target audiences, including corporate organizations, professionals, students, and event organizers, focusing on their preferences, booking behaviors, and pain points. This allowed us to craft a website experience that speaks directly to users seeking convenient, safe, and dependable transportation solutions. We immersed ourselves in Grey Automotive's brand story, born from a passion for making transport effective, efficient, and dynamic. By capturing the essence of their commitment to quality service, we created a platform that highlights their unique value propositions across multiple service lines.\n\nWe performed usability studies to understand user needs when booking transportation services online. These insights informed the design and functionality, ensuring the website delivers an intuitive booking experience that builds trust and makes it easy for customers to select and pay for their preferred service.",
+      "design": "Designing the interface and interactions for Grey Automotive's website centred on creating a clean, professional, and user-centric experience that reflects the brand's commitment to reliability and efficiency. We crafted a streamlined interface that prioritizes ease of navigation, allowing users to quickly find and book their preferred transportation service—whether transit, logistics, student transport, or bus rentals.\n\nThe design employs a modern, professional aesthetic with high-quality imagery showcasing their fleet and services in action. A carefully selected color palette of greys and accent colors reinforces brand identity while maintaining a contemporary, trustworthy appearance. Every design decision focused on reducing friction in the booking journey. We created clear service categorization with distinct visual identities for Transit by Grey, Skulbus, Bus Rentals, and Senda by Grey, making it easy for users to identify their needed service at a glance.\n\nThe booking interface was designed with transparency and simplicity in mind—displaying clear pricing, vehicle availability, departure times, and route information upfront. Interactive elements such as date pickers, location selectors, and trip cards were crafted to make the reservation process intuitive and reassuring. We optimized the design for responsiveness, ensuring the website delivers a seamless booking experience across all devices, from desktop computers to mobile phones used by commuters on the go.",
+      "development": "Developing Grey Automotive's website focused on delivering a robust, high-performance platform capable of handling real-time bookings and multiple service offerings simultaneously. We built the website using modern web technologies including Next.js and React, ensuring responsive architecture that delivers a flawless experience across all devices and screen sizes. Performance optimization was critical—we implemented efficient code splitting, lazy loading, and asset optimization to ensure fast load times even on mobile networks.\n\nThe booking system was engineered with reliability and scalability in mind. We developed dynamic search functionality that queries available vehicles, routes, and departure times in real-time, displaying accurate pricing and availability to users. The system seamlessly handles multiple service categories—from corporate transit to student transportation—each with unique booking requirements and business logic. Interactive features such as form validation, date selection, and trip filtering were carefully implemented to create a smooth, error-free booking experience.\n\nWe integrated secure payment processing systems to handle transactions safely, giving users confidence when booking their transportation services. The platform was built with scalability to accommodate Grey's growing service offerings and expanding customer base. Clean, modular code architecture allows for easy updates, new feature integration, and service expansion as the business evolves. We implemented comprehensive error handling and loading states to keep users informed throughout their booking journey. Accessibility standards were prioritized throughout development, ensuring the platform is usable by all customers regardless of ability, meeting WCAG guidelines for an inclusive digital experience."
+    },
+    "releaseDate": "June, 2024"
+  },
+  {
     "id": "dev.ochuko.space",
     "slug": "dev-ochuko-space",
     "title": "Ochuko 'Folio 24 — Creative Engineer",
@@ -63,34 +116,5 @@
       "development": "Developing the interface and interactions for the creative engineer's website requires a meticulous approach to ensure the design vision is translated into a seamless, functional experience. \n\nWe utilised modern front-end technologies — React, Next.js, TailwindCSS — as well as asset optimisations to allow for fast load times and rendering speeds. We also integrated ReactThreeFibre and ThreeJS to work with the 3D elements utilised in the website to ensure smoothness on all types of devices. We added engaging interactions, such as hover effects, animations, and dynamic content displays, to make the website more immersive and user-friendly. \n\nTo ensure consistent behaviour and interaction we implemented strong coding practices and vigorous testing. We also worked with clean, modular code to allow for easy updates, scalability, and integration of new features; and we adhered to web accessibility guidelines (e.g., WCAG) to make the website inclusive for all users. \n\nThis development process ensures a polished, interactive website that aligns with the engineer's creative and technical prowess while delivering an exceptional user experience."
     },
     "releaseDate": "January, 2024"
-  },
-  {
-    "id": "luxevilla28",
-    "slug": "luxevilla28",
-    "title": "Luxevilla28 — Hotel & Resort",
-    "clip": "Telling the story of luxury for an upcoming hotel. Service at it's finest.",
-    "images": [
-      {
-        "url": "/images/work/luxevilla28-iphone.png",
-        "width": 4000,
-        "height": 2250,
-        "alt": "Luxevilla28 on an iPhone"
-      },
-      {
-        "url": "/images/work/luxevilla28-mac.png",
-        "width": 4500,
-        "height": 3000,
-        "alt": "Luxevilla28 on a Macbook"
-      }
-    ],
-    "tool": "Hotel & Resort | Website",
-    "service": "Brand Identity&nbsp;&nbsp;|&nbsp;&nbsp;UI/UX Design&nbsp;&nbsp;|&nbsp;&nbsp;Web Engineering",
-    "problem": "A luxury hotel must effectively convey its exclusivity, sophistication, and exceptional guest experience to stand out in a competitive market. Without a compelling brand identity and a state-of-the-art website, potential guests may overlook its offerings in favour of competitors. The absence of a unified branding strategy and a visually captivating, user-friendly website hinders the hotel's ability to engage prospective guests effectively.",
-    "steps": {
-      "research": "Conducting comprehensive research is crucial to create a website that reflects the hotel's elegance and appeals to its discerning clientele. We analysed the market and competitor websites to gain insights into industry standards and identify opportunities to differentiate the hotel's online presence. By understanding what competitors do well—and where they fall short—we positioned the website to stand out as a leader in hospitality. We conducted in-depth research into the target audience, focusing on their preferences, expectations, and online behaviors. This allowed us to craft a website experience that speaks directly to high-value guests seeking an exceptional and exclusive stay. \n\nWe immersed ourselves in the hotel's unique story, ambiance, and offerings to ensure the website authentically represents the luxury experience it provides. By capturing the essence of the brand, we created a platform that highlights its unique value propositions. We performed usability studies to understand user needs and behaviors. These insights informed the design and functionality, ensuring the website delivers an intuitive, seamless browsing experience that inspires confidence in booking a stay.",
-      "design": "Designing the interface and interactions for the hotel's website centers on creating a visually stunning and user-centric experience that reflects the brand's sophistication. We designed the website to create a visually stunning and user-centric experience that reflects the hotel's sophistication. High-quality imagery, refined typography, and a cohesive color palette were carefully chosen to convey elegance and exclusivity at every touchpoint. \n\nEvery design decision focused on making the journey as smooth and engaging as the stay itself. We incorporated immersive storytelling elements to bring the hotel's ambiance to life. Features like rich media galleries were designed to captivate visitors and transport them into the luxury experience from the moment they arrive on the site. We optimized the design for responsiveness, ensuring the website maintains its elegance and functionality across all devices. Whether viewed on a smartphone, tablet, or desktop, the site delivers a consistent and visually impressive experience.",
-      "development": "Developing the interface and interactions for the hotel's website focuses on delivering a seamless, high-performance digital experience that embodies sophistication. We developed the website's interface with responsive architecture to ensure it delivers a flawless experience across all devices and screen sizes. Modern front-end frameworks allowed us to maintain elegance and functionality as well as optimise load times and rendering speeds. \n\nWe implemented engaging interactive features to elevate the user experience. Smooth transitions, hover effects, and interactive media galleries were carefully coded to captivate visitors while highlighting the hotel's unique offerings in a dynamic and immersive way. The system was designed to be intuitive, guiding users effortlessly from exploration to confirmation, ensuring their journey is as smooth as their stay will be. We built the website with scalability and long-term maintenance in mind. \n\nClean, modular code allows for easy updates, feature enhancements, and future integrations, ensuring the platform evolves alongside the hotel's needs. We adhered to accessibility standards to make the website inclusive for all users. By meeting WCAG guidelines, we ensured every guest, regardless of ability, can enjoy the same high-quality digital experience."
-    },
-    "releaseDate": "September, 2020"
   }
 ]

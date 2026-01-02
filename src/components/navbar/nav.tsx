@@ -12,7 +12,7 @@ const links = [
 
 export const Nav = () => {
   return (
-    <nav className="flex justify-between items-center py-5 px-[4.5rem] tab:px-8 phone:px-4">
+    <nav className="w-full max-w-[2000px] mx-auto flex justify-between items-center py-5 px-[4.5rem] tab:px-8 phone:px-4">
       <InteractiveLink
         href="/"
         wrapperType="link"
@@ -50,13 +50,8 @@ export const Nav = () => {
         ))}
       </ul>
       <ul className="flex gap-16 lg-tab:hidden">
-        <li className="nav-link relative text-sm hover:text-primary">
-          <InteractiveLink href="tel:(+234) 906 201 8396">
-            (+234) 906 201 8396
-          </InteractiveLink>
-        </li>
         <li>
-          <InteractiveLink href="mailto:stritechng@gmail.com">
+          <InteractiveLink href="/#contact">
             <EmailIcon className="w-6" />
           </InteractiveLink>
         </li>
@@ -75,23 +70,10 @@ export const MobileNav = (props: { show: boolean; close: () => void }) => {
   }, [props.show]);
   return (
     <nav
-      className={`p-10 fixed z-[11] w-screen max-w-xl h-screen grey-gradient-round flex flex-col transition-all duration-500 ${
-        props.show ? "right-0" : "-right-full"
-      } tab:max-w-none`}
+      className={`p-10 fixed z-[11] w-screen max-w-xl h-screen grey-gradient-round flex flex-col transition-all duration-500 ${props.show ? "right-0" : "-right-full"
+        } tab:max-w-none`}
     >
-      <div className="flex justify-between items-center">
-        <ul className="flex flex-col gap-2 text-sm">
-          <li className="nav-link text-white relative hover:text-primary">
-            <InteractiveLink href="mailto:stritechng@gmail.com">
-              E:stritechng@gmail.com
-            </InteractiveLink>
-          </li>
-          <li className="nav-link text-white relative hover:text-primary">
-            <InteractiveLink href="tel:(+234) 906 201 8396">
-              T:(+234) 906 201 8396
-            </InteractiveLink>
-          </li>
-        </ul>
+      <div className="flex justify-end items-center">
         <InteractiveLink>
           <button
             onClick={props.close}
@@ -140,9 +122,8 @@ export const FloatingMenu = (props: {
 }) => {
   return (
     <div
-      className={`fixed top-20 right-20 z-10 transition-all duration-500 lg-tab:top-5 lg-tab:right-8 ${
-        props.visible ? "scale-100" : "scale-0 lg-tab:scale-100"
-      }`}
+      className={`fixed top-20 right-20 z-10 transition-all duration-500 lg-tab:top-5 lg-tab:right-8 ${props.visible ? "scale-100" : "scale-0 lg-tab:scale-100"
+        }`}
     >
       <InteractiveLink
         className="p-1 text-xl flex items-center rounded-full border text-white border-white bg-black cursor-pointer hover:bg-primary hover:border-black hover:text-black"

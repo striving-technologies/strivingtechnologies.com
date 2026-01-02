@@ -61,29 +61,21 @@ export const ContactForm = () => {
     e.preventDefault();
     if (!validateFormValues()) return;
 
-    const data = {
-      service_id: "gmail",
-      template_id: "template_e374vch",
-      user_id: "user_OQyWiC5XbcdNYgj5nqbJU",
-      template_params: form,
-    };
-
     try {
       setSubmitting(true);
 
-      const response = await fetch(
-        "https://api.emailjs.com/api/v1.0/email/send",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
-      );
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
 
-      if (!response.ok || response.status !== 200) {
-        throw new Error(`Response status: ${response.status}`);
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.message || `Response status: ${response.status}`);
       }
 
       setIsSuccessful(true);
