@@ -12,6 +12,7 @@ export const ContactForm = () => {
 
   const [submitting, setSubmitting] = useState(false);
   const [isSuccessful, setIsSuccessful] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const phoneRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
@@ -63,6 +64,7 @@ export const ContactForm = () => {
 
     try {
       setSubmitting(true);
+      setErrorMessage(""); // Clear any previous error message
 
       const response = await fetch("/api/send-email", {
         method: "POST",
@@ -89,8 +91,11 @@ export const ContactForm = () => {
         setIsSuccessful(false);
       }, 5000);
     } catch (error) {
-      console.error(error);
-      alert("An error occurred. Please try again later.");
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : "An error occurred. Please try again later."
+      );
     } finally {
       setSubmitting(false);
     }
@@ -152,6 +157,9 @@ export const ContactForm = () => {
         <p className="text-green-100 text-sm">
           We've gotten your message. We'll get back to you soon!
         </p>
+      )}
+      {errorMessage && (
+        <p className="text-red-400 text-sm">{errorMessage}</p>
       )}
     </form>
   );

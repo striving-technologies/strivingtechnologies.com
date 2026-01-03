@@ -61,6 +61,7 @@ export default async function handler(
     const serviceId = process.env.EMAILJS_SERVICE_ID;
     const templateId = process.env.EMAILJS_TEMPLATE_ID;
     const userId = process.env.EMAILJS_USER_ID;
+    const accessToken = process.env.EMAILJS_PRIVATE_KEY;
 
     if (!serviceId || !templateId || !userId) {
       console.error("EmailJS environment variables not configured");
@@ -75,6 +76,7 @@ export default async function handler(
       service_id: serviceId,
       template_id: templateId,
       user_id: userId,
+      accessToken: accessToken,
       template_params: {
         name,
         email,
