@@ -1,5 +1,64 @@
 [
   {
+    "id": "casa-architecture",
+    "slug": "casa-architecture",
+    "title": "Casa Architecture — Architecture Firm",
+    "clip": "A refined, scalable website for a design-focused architecture firm, expressing their identity with clarity, restraint, and confidence.",
+    "images": [
+      {
+        "url": "/images/work/casa-mac.png",
+        "width": 5493,
+        "height": 3662,
+        "alt": "Casa Architecture website on a Macbook"
+      },
+      {
+        "url": "/images/work/casa-landing.png",
+        "width": 3146,
+        "height": 1975,
+        "alt": "Casa Architecture landing page"
+      },
+      {
+        "url": "/images/work/casa-services.png",
+        "width": 3139,
+        "height": 1975,
+        "alt": "Casa Architecture services section"
+      },
+      {
+        "url": "/images/work/casa-impact.png",
+        "width": 3139,
+        "height": 1975,
+        "alt": "Casa Architecture impact section"
+      },
+      {
+        "url": "/images/work/casa-work.png",
+        "width": 3139,
+        "height": 1975,
+        "alt": "Casa Architecture work listing page"
+      },
+      {
+        "url": "/images/work/casa-work-1.png",
+        "width": 2880,
+        "height": 1848,
+        "alt": "Casa Architecture project detail view"
+      },
+      {
+        "url": "/images/work/casa-work-2.png",
+        "width": 2880,
+        "height": 1848,
+        "alt": "Casa Architecture alternate project detail view"
+      }
+    ],
+    "tool": "Architecture | Website",
+    "service": "UI/UX Design&nbsp;&nbsp;|&nbsp;&nbsp;Web Engineering",
+    "problem": "Casa Architecture, a design-focused architecture firm in the USA, was built on the belief that good architecture starts with listening. For years they relied heavily on referrals and offline presentations to express their work, but as they expanded into corporate and higher-value projects, that approach started to limit them. They needed to showcase their work effectively, build credibility with new clients, consistently generate qualified leads, and create a digital presence that matched the calibre of their counterparts. The firm needed a website that could communicate their architectural identity with just the right balance of imagery and words, showcase projects in a way that feels impactful, express credibility for high-value partnerships with developers, institutions, and communities, and reflect a design philosophy centred on listening, restraint, and longevity.",
+    "steps": {
+      "research": "The bulk of our work was to translate Casa Architecture's philosophy into a visual experience. That meant spending time understanding what 'architecture with clarity' actually looks like for them as a studio — how they talk to clients, which projects best represent their point of view, and what corporate decision-makers look for when evaluating a firm for a high-value partnership.\n\nWe mapped the site architecture and navigation around the moments that matter most: first impression, project depth, credibility signals, and a clear path to a conversation. We audited how peer studios present themselves online, noted where most architecture sites fall short on mobile and in project storytelling, and used those gaps to define the scope — a refined, scalable website that expresses the studio's identity with confidence, mobile responsive high-fidelity designs for core pages, and a reusable case study layout so new projects can be presented with consistency as the portfolio grows.",
+      "design": "To translate Casa Architecture's operational philosophy into a digital experience, the design of the website was guided by three core principles.\n\n<strong>Clear Communication.</strong> A deliberate mix of quality imagery and concise copy, so that every page communicates the studio's identity, intent, and quality without overwhelming the reader.\n\n<strong>Clean Presentation.</strong> A consistent grid, careful whitespace, refined typography, and first-class mobile responsiveness, so that each project feels deliberate and elevated across devices.\n\n<strong>Build Credibility.</strong> Project highlights, partner context, and the engineering and social impact of the work are surfaced throughout the site to signal value to potential collaborators — developers, institutions, and communities alike.",
+      "development": "We designed and developed a clean blend of image expression and concise copy to describe Casa Architecture as clearly as possible to their audience. The site was built with performance and maintainability in mind, using a reusable case study layout so new projects can be added without redesign work, and tuned for fast load times across devices.\n\nThe core pages — landing, services, and work — share a consistent grid and typography system, keeping the visual language tight as the portfolio grows. Mobile responsiveness was treated as a first-class concern rather than an afterthought, ensuring the studio's identity holds up on the devices most prospective clients use to form their first impression. Accessibility and semantic structure were prioritised throughout, so that the clarity the studio preaches in physical space is matched by the clarity of the digital experience."
+    },
+    "releaseDate": "April, 2026"
+  },
+  {
     "id": "greyautomotive.ng",
     "slug": "greyautomotive-ng",
     "title": "Grey Automotive — Travel & Courier",
